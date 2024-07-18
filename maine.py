@@ -12,9 +12,9 @@ print(n1 + m1)
 n = 13.42
 n1 = int(n)
 n2 = n%1*100
-n3 = (round(n2,2))
+n3 = (round(n2,))
 m = 42.13
 m1 = int(m)
 m2 = m%1*100
-m3 = (round(m2,2))
+m3 = (round(m2,))
 print(n1==m3 or m1==n3)
